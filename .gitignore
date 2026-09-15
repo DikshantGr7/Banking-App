@@ -1,0 +1,86 @@
+# ===== PYTHON =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ===== VIRTUAL ENVIRONMENT (CRITICAL - DON'T PUSH!) =====
+venv/
+.venv
+env/
+
+# ===== SECRETS & CONFIGURATION (CRITICAL - DON'T PUSH!) =====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.pub
+config.ini
+secrets.json
+
+# ===== DATABASE (CRITICAL - DON'T PUSH!) =====
+database/
+*.db
+*.sqlite
+*.sqlite3
+
+# ===== LOGS =====
+*.log
+logs/
+banking_app.log
+
+# ===== EXPORTS & GENERATED FILES =====
+transactions.csv
+transactions.json
+account_info.json
+*.csv
+*.xlsx
+
+# ===== IDE & EDITOR =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+.project
+.pydevproject
+
+# ===== STREAMLIT =====
+.streamlit/
+.streamlit/secrets.toml
+
+# ===== OS SPECIFIC =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== TESTING =====
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===== JUPYTER =====
+.ipynb_checkpoints/
+*.ipynb
